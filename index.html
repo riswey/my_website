@@ -1,17 +1,18 @@
 <html>
 <head>
 <style>
+.image-stack {
+  position: relative;
+  width: 100%;
+  container-type: inline-size;
+}
+
 .image-stack img {
   display: block;
   width: 100%;
   height: auto;
   }
   
-.image-stack {
-  position: relative;
-  width: 100%;
-}
-
 .hotspot {
   position: absolute;
   display: block;
@@ -42,7 +43,7 @@
   font-family: "Vedana";
   font-weight: 200;
   letter-spacing: -0.02em;
-  font-size: 4em;
+  font-size: clamp(16px, 4cqw, 48px);
 }
 
 .links-div {
