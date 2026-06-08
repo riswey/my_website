@@ -1,0 +1,149 @@
+<html>
+<head>
+<style>
+.parent {
+  container-type: inline-size;
+}
+
+.image-stack {
+  position: relative;
+  width: 100%;
+  container-type: inline-size;
+}
+
+.image-stack img {
+  display: block;
+  width: 100%;
+  height: auto;
+  }
+  
+.hotspot {
+  position: absolute;
+  display: block;
+  /* Optional while positioning/debugging */
+  //background: rgba(255, 0, 0, 0.25);
+}
+
+/* Coordinates are relative to the image container */
+.link-one {
+  left: 9%;
+  top: 32%;
+  width: 23.5%;
+  height: 2.3%;
+}
+
+.link-two {
+  left: 30%;
+  top: 74.5%;
+  width: 30%;
+  height: 2
+  font-family: "Vedana";
+  font-weight: 200;
+  letter-spacing: -0.02em;
+  font-size: 4em;
+}
+
+.links {
+  font-family: Verdana, Arial, sans-serif;
+  font-weight: 400;
+  letter-spacing: -0.02em;
+ //font-size: clamp(40px, 100cqi, 50px);
+ font-size: 1.25cqi;
+ line-height: 1.2;
+}
+
+.links-div {
+  left: 30%;
+  top: 75%;
+  width: 35%;
+  height: 2
+}
+
+.link-two {
+  left: 35%;
+  top: 88.1%;
+  width: 38%;
+  height: 2%;
+}
+
+.link-three {
+  left: 38.1%;
+  top: 96.5%;
+  width: 14%;
+  height: 1%;
+}
+
+.link-four {
+  left: 61.4%;
+  top: 96.5%;
+  width: 14%;
+  height: 1%;
+}
+
+  .donate-button {
+    position: absolute;
+    display: block;
+    background-color:#FFC439;
+    color:#003087;
+    font-size: 1.75cqi;
+    font-weight: bold;
+    padding: 0%;
+    width: 8%;
+    //height: 8.0%;
+    border-radius: 9999px;
+    text-align: center;
+    //border-radius: 16px;
+    padding: 18px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    cursor: pointer;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    text-decoration:none;
+    //border: 2px solid #003087;
+    //border-bottom: 3px solid #ffaa00;
+    //border-right: 3px solid #ffaa00;
+}
+
+  .donate-button:hover {
+  transform: scale(1.04);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
+}
+
+.donate-button:focus {
+    outline: 2px solid #378add;
+    outline-offset: 2px;
+  }
+
+  .top-button {
+    left: 85%;
+    top: 5%;
+  }
+
+  .bottom-button {
+    left: 83%;
+    top: 295%;
+  }
+
+
+</style>
+</head>
+<body>
+<div class="image-stack">
+  <img src="hero2.png" alt="">
+  <img src="4_bv.png" alt="">
+  <img src="vdd2.png" alt="">
+  <img src="foot_org_4.png" alt="">
+  <a class="hotspot link-one" href="https://forms.office.com/r/VFHDFgsPrK" aria-label="Registration form" target="_blank"></a>
+  <div class="hotspot links-div links">More information: 
+  <a href="https://www.middle-way.org/about" aria-label="Middle Way Society" target="_blank">Middle Way Society</a> | <a href="https://wisdom-temple.org/en/venerable-dhammadipa-sak/" aria-label="American Wisdom Association" target="_blank">American Wisdom Association</a>
+  </div>
+  <a class="hotspot link-two" href="https://forms.office.com/r/VFHDFgsPrK" aria-label="Registration page" target="_blank"></a>
+  
+  <a class="hotspot link-three links" href="mailto:mettajo323@gmail.com?subject=Brahmavihara%20Retreat%20Enquiry" aria-label="Email Joanna Xie"></a>
+  <a class="hotspot link-four links" href="mailto:alva.gosson@gmx.co.uk?subject=Brahmavihara%20Retreat%20Enquiry" aria-label="Email Alva Gosson"></a>
+</div>
+
+<a href="https://www.paypal.com/ncp/payment/ZLZ77PMFF9N3E" target="_blank" rel="noopener noreferrer" class="donate-button top-button">Donate</a>
+<a href="https://www.paypal.com/ncp/payment/ZLZ77PMFF9N3E" target="_blank" rel="noopener noreferrer" class="donate-button bottom-button">Donate</a>
+
+</body>
+</html>
